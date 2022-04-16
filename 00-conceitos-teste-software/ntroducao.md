@@ -1,36 +1,36 @@
 # **Fundamentos de Teste**
 
-**1. O que é Teste de Software?** 
+## **1. O que é Teste de Software?** 
 
 Os sistemas de software fazem parte da vida diária do ser humano. Com certeza em algum momento da vida, vários individuos precisaram de um software que teve um mal funcionamento. Um sistema com mal funcionamento pode acarretar em muitos problemas como perda de tempo, dinheiro e até a morte.
 Segundo **ISTQB** (*Certified Tester Foundation Level Syllabus*) teste de software é uma forma de analisar a qualidade do software e reduzir riscos de 
 falha do mesmo em uma operação.
 Testar um software consiste não somente em executa lo mas também verificar e analisar os resultados. 
 
-2. Por que o Teste de Software é necessário?
+## **2. Por que o Teste de Software é necessário?** 
 
 Todo software precisa ser testado, além de existirem requisitos e padroẽs como documentações específicas do setor, existem testes rigorosos de componentes e sistemas  que podem diminuir riscos e falhas durante a execução. 
 Quando um  software é testado antes, é possível identificar  os riscos e falhas podendo reduzir os gastos e melhorar a qualidade do software.
 
-3. Os sete princípios de teste.
+## **3. Os sete princípios de teste.** 
 
-   Nos úlitmos 50 anos foram sugeridos princípios de testes oferecendo orientações gerais para todos os testes como:
+Nos úlitmos 50 anos foram sugeridos princípios de testes oferecendo orientações gerais para todos os testes como:
 
-   **1. O teste mostra a mostra a presença de defeitos e não  a sua ausencia:** Mesmo com defeitos um software pode funcionar normalmente, enquanto o erro não for encontrado.
+**1. O teste mostra a mostra a presença de defeitos e não  a sua ausencia:** Mesmo com defeitos um software pode funcionar normalmente, enquanto o erro não for encontrado.
 
-   **2. Testes exaustivos são impossíveis:** É importante testar o trivial, em vez de testar tudo em todas as combinações, por causa dos riscos em afetar algum componente.
+**2. Testes exaustivos são impossíveis:** É importante testar o trivial, em vez de testar tudo em todas as combinações, por causa dos riscos em afetar algum componente.
 
-   **3. O teste inicial economiza tempo e dinheiro:** Quanto mais cedo se inicia o teste melhor é, isto ajuda a reduzir as alterações custosas.
+**3. O teste inicial economiza tempo e dinheiro:** Quanto mais cedo se inicia o teste melhor é, isto ajuda a reduzir as alterações custosas.
 
-   **4. Defeitos se agrupam:** Normalmente um pequeno número de defeitos tendem a serem descobertos durante o pré lançamentos dos testes. São  entradas importantes em uma análise  o agrupamento de defeitos previstos  e o agrupamento de defeitos observados reais em teste de produção.
+ **4. Defeitos se agrupam:** Normalmente um pequeno número de defeitos tendem a serem descobertos durante o pré lançamentos dos testes. São  entradas importantes em uma análise  o agrupamento de defeitos previstos  e o agrupamento de defeitos observados reais em teste de produção.
 
-   **5. Cuidado com o paradoxo de pesticida:** Os  mesmos testes sendo feitos repetidamente não encontrarão novos defeitos. Para encontrar novos defeitos é necessário serem alterados e serem gravados.
+**5. Cuidado com o paradoxo de pesticida:** Os  mesmos testes sendo feitos repetidamente não encontrarão novos defeitos. Para encontrar novos defeitos é necessário serem alterados e serem gravados.
 
-   **6. O teste depende do contexto:** Para cada tipo de software é  feito testes diferentes. O mesmo teste pode ser usado de forma diferente em diferentes âmbitos.
+**6. O teste depende do contexto:** Para cada tipo de software é  feito testes diferentes. O mesmo teste pode ser usado de forma diferente em diferentes âmbitos.
 
-   **7. Ausencia de erros é uma ilusão:** É impossível encontrar todos os defeitos  possíveis em um software, embora muitas organizações esperam isto dos testadores. Os principios 2 e 1 provam que isto é um erro.
+ **7. Ausencia de erros é uma ilusão:** É impossível encontrar todos os defeitos  possíveis em um software, embora muitas organizações esperam isto dos testadores. Os principios 2 e 1 provam que isto é um erro.
 
-4.Processos de teste.
+## **4. Processos de teste.**
 
 O conjunto de práticas  comuns que garantem a menor chance de atingirem seus objetivos é denominado processos de testes. Embora não exista uma fórmula universal para testar os softwares,  esse conjunto de práticas auxilia nas atividades de testes.
 
@@ -44,7 +44,7 @@ Alguns fatores contribuem para o processo de teste de uma organização:
    * Práticas Organizacionais
    * Normas Internas e externas necessárias.
 
-5. A psicologia do teste
+## **5. A psicologia do teste**
 
 O desenvolvimento de software, e os testes de software é feita por humanos testando os softwares, e a pscologia humana auxilia de forma significativa nos testes de software.
 
@@ -428,7 +428,7 @@ Vantagens da independência do teste incluem:
 
 Os beneficios da indepedência do teste em muitas organizações são alcançadas com sucesso evitando todas desvantgens.
 
-5.1 Funçoes de um gerente de teste e do testador
+## **5.1 Funções de um gerente de teste e do testador**
 
 Os testadores e os gerentes de teste são dois papeis cobertos neste syllabus e suas tarefas desenvolvidas por estes dois papeis dependem doo cenário do projetoe do produto, assim como as aptidoes das pessoas em suas organizações.
 
@@ -468,7 +468,7 @@ Tarefas comuns de um testador:
 
 A pessoa que pode ser especialista nessas funções normalmente  trabalham em analise de teste, projeto de teste, automação de testes. Pessoas diferentes   podem exercer o papel de testador em níveis  de testes diferentes níveis de testes, dependendo dos riscos relacionados ao produto e ao projeto e o modelo de ciclo de vida de desenvolvimento do software. 
 
-**5.2 Planejamento e estimativa de testes**
+## **5.2 Planejamento e estimativa de testes**
 
 **5.2.1 Objetivo e conteúdo de um plano de teste**
 
