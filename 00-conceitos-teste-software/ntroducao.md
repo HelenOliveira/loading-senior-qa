@@ -49,9 +49,9 @@ Alguns fatores contribuem para o processo de teste de uma organização:
 O desenvolvimento de software, e os testes de software é feita por humanos testando os softwares, e a pscologia humana auxilia de forma significativa nos testes de software.
 
 
-**Teste Durante o Ciclo de Vida de Desenvolvimento de Software:**
+### **Teste Durante o Ciclo de Vida de Desenvolvimento de Software:**
 
-1.Modelos de ciclo de vida de desenvolvimento de software.
+**1.Modelos de ciclo de vida de desenvolvimento de software.**
 
 O cliclo de vida de um teste especifica todo trabalho feito em cada estágio do desenvolvimento do proejto de desenvolvimento de software.
 Existem vários de ciclo de vida no desenvolvimento de um software e cada um aborda um tratamento diferente.
@@ -86,7 +86,7 @@ Existem vários de ciclo de vida no desenvolvimento de um software e cada um abo
    * Tempo curto para entrega do produto ao mercado
 
 
-2.Níveis de Teste.
+**2.Níveis de Teste.**
 
 Cada nível de teste é uma categoria do processo de teste que consiste nas atividades e são gerenciados juntos. Desde  os teste de componentes até outras atividades dentro do ciclo de vida de desenvoliemnto de software. 
 As características em comum dos testes são:
@@ -101,41 +101,41 @@ O necessário para cada nível de teste é que se tenha o um ambiente apropriado
 
    * **Teste de componente:** 
 
-   Objetivos: 
+   **Objetivos:** 
    * Reduzir riscos
    * Averiguar o comportamento funcional ou não funcional.
    * Verificar e  achar defeitos nos componentes.
    * Evitar que os defeitos se espalhem. 
 
-   Base de teste:
+   **Base de teste:**
 
    * Projeto detalhado
    * Código
    * Especificações de componentes 
 
 
-   Objetos de teste 
+   **Objetos de teste**
 
    * Componentes, unidades ou módulos
    * Estruturas de código e dados
    * Classes
    * Módulos de de banco de dados
 
-   Defeitos e falhas:
+   **Defeitos e falhas:**
 
    * Problemas no fluxo de dados
    * Códigos e lógica incorretos
    * Funcionalidade incorreta 
 
 
-Abordagens e responsabilidades
+**Abordagens e responsabilidades**
 
 Normalmente o código de componente é executado pelo desenvolvedor criador do código. 
  
 
    * **Teste de integração:** 
 
-Objetivos:
+**Objetivos:**
 
 * Reduzir risco
 * Averiguar se os comportamentos funcionais e não funcionais das interfaces 
@@ -143,7 +143,7 @@ Objetivos:
 * Achar  defeitos que indicam que estejam na interface
 * Evitar que os defeitos espalhem para níveis mais altos de teste. 
 
-Base de teste
+**Base de teste**
 
 * Software e modelagem do sistema
 * Diagramas de sequência
@@ -153,7 +153,7 @@ Base de teste
 * Fluxos de trabalho;
 * Definições de interface externa 
 
-Objetos de teste
+**Objetos de teste**
 
 * Subsistemas
 * Banco de dados
@@ -163,7 +163,7 @@ Objetos de teste
 * Micros serviços
 
 
-Defeitos e falhas típicas
+**Defeitos e falhas típicas**
 
 * Dados incorretos
 * Sequenciamento ou temporização incorretos de chamadas de interface
@@ -173,14 +173,14 @@ Defeitos e falhas típicas
 * Suposições incorretas sobre o significado, as unidades ou limites dos dados que estão sendo transmitidos entre os componentes.
 
 
-Abordagens e responsabilidades
+**Abordagens e responsabilidades**
 
 Os testes de integração de componentes e os testes de integração de sistemas devem ser focalizados na própria integração. Normalmente os teste de integração de componentes é responsabilidade do desenvolvedor e o teste de integração dos sistema ficam incubidos aos testadores.
 
 
  * **Teste de sistema:** 
 
- Objetivos:
+ **Objetivos:**
    
    * Reduzir riscos
    * Averiguar o comportamento funcional ou não funcional
@@ -188,7 +188,7 @@ Os testes de integração de componentes e os testes de integração de sistemas
    * Desenvolver confiança na aqualidade do sistema como um todo
    * Achar defeitos 
 
-Base de teste:
+**Base de teste:**
 
 * Especificações de requisitos de sistema e software
 * Relatórios de análise de risco
@@ -198,14 +198,14 @@ Base de teste:
 * Diagramas de estado;
 * Sistema e manuais do usuário 
 
-Objetos de teste
+**Objetos de teste**
 * Aplicações
 * Sistemas de hardware e software
 * Sistemas operacionais
 * Sistemas sob teste
 * Configuração do sistema e dados de configuração
 
-Defeitos e falhas típicas: 
+**Defeitos e falhas típicas:** 
 
 * Cálculos incorretos;
 * Comportamento funcional ou não funcional do sistema incorreto ou inesperado
@@ -214,19 +214,19 @@ Defeitos e falhas típicas:
 * Falha na execução do sistema
 * Falha no funicinamento descrito nos manuais do sistema e usuário
 
-Abordagens e responsabilidades
+**Abordagens e responsabilidades**
 
 O teste do sistema se concentra no comportamento geral do sistema como um todo. Normalmente fica na responsabilidade dos testadores independentes fazer os testes no sistema.
 
    * **Teste de aceite:** 
 
- Objetivos:
+ **Objetivos:**
 
    * Criar confiança na qualidade do sistema
    * Validar o sistema completo
 
 
-Base de teste 
+**Base de teste**
 
 * Processos de negócios;
 * Requisitos do usuário ou de negócios;
@@ -238,20 +238,20 @@ Base de teste
 * Relatórios de análise de risco.
 
 
-Defeitos e falhas típicas
+**Defeitos e falhas típicas**
 
 * Fluxos de trabalho do sistema não atendem aos requisitos do negócio ou do usuário;
 * Regras de negócios não são implementadas corretamente;
 * O sistema não atende os requisitos contratuais ou regulatórios;
 * Falhas não funcionais, como vulnerabilidades de segurança, eficiência de performance inadequada sob altas cargas ou operação inadequada em uma plataforma suportada.
 
-Abordagens e responsabilidades
+**Abordagens e responsabilidades**
 
 Normalmente os testes de aceite são efetuados pelos clientes, usuário de negócios, proprietários do produto ou operadores de um sistema assim como stakeholders podem esta no projeto.
 
 
 
-3.Tipos de Teste.
+**3. Tipos de Teste.**
 
 Os testes podem ser divididos da seguinte forma:
 
@@ -263,7 +263,7 @@ Funcionais e não  funcionais:
    * **Testes caixa-branca:**: teste caixa-branca verifica a parte interna do software, como códigos, arquitetura, fluxos de trabalho e fluxos de dados. Sua eficácia pode ser medida pela cobertura estrutural que é a extensão em  algum tipo de elemento estrutural. Para seu uso é necessário possuir habilidades mais avançadas, 'observando como o código foi construido.
 
 
-4.Teste de manutenção.
+**4. Teste de manutenção.**
 
 Depois de todo processo de implatação do sistema, o software precisa ser mantido, pois no momento de entrega do sistema, são encontrados muitos erros pelo usuário. Nesse período é onde os defeitos apareceram e as mudanças são necessárias para manter a melhoria de qualidade do software. Os testes de manutenção precisam ser realizados para qualificar o funcionamento do software e garantir o seu sucesso com as alterações feitas.
 
@@ -275,12 +275,12 @@ No teste de manutenção, podem ser usado vários escopos e eles dependem do:
 
 **Teste estático**
 
-1.Noções básicas sobre testes estáticos.
+**1. Noções básicas sobre testes estáticos.**
 Ao contrário do teste dinãmico, os testes estáticos por sua vez depende da execução do software a ser testado. Ele necessita do exame manual dos produtos de trabalho, ou seja, as revisões ou da análise feita por ferramentas de códigos. A análise estática tem se tornado muito significativa para os sistemas críticos de segurança. E está sendo usada em muitos sistemas automatizados.
 E seu benefício é que quando usado no início de ciclo de vida do desenvolvimento de software, possibilita a detecção prévia dos defeitos. 
 
 
-2.Processo de revisão
+**2. Processo de revisão**
 
 Este processos pode ser dividido em dois tipos: formal e informal. 
 * **Informais:** tem como característica por não preservar um processo estabelecido e não ser documentado.
@@ -298,7 +298,7 @@ Os resultados da revisão podem sofrer alterações depedendendo de sua formalid
 
 **Técnicas de Teste**
 
-1.Categorias de técnicas de teste
+**1. Categorias de técnicas de teste**
 
 A técnica de teste tem como objetivo auxiliar na identificação das condições de teste, os casos e os dados dos testes. Na escolha da técnica, pode depender de alguns fatores como:
 
@@ -317,7 +317,7 @@ Das técnicas citadas algumas são usadas em todos os níveis do teste, outras s
 A usabilidade das técnicas podem variar entre formal e  muito informal, isso irá depender circunstância e maturidade dos processos de teste.
 
 
-2.Técnicas de teste caixa preta
+**2. Técnicas de teste caixa preta**
 
 Particionamento ou equivalência:
 
@@ -329,7 +329,7 @@ Nesta técnica divide se os dados em partições que são comumentes chamadas de
 Para cobertura 100% dessa técnica, os casos de teste teem que cobrir as partiçoes identificadsas, inclusive as não válidas, utilizando o mínimo de cada valor das partições. A forma de  medir sua cobertura é o número de partições de equivalência testatas dividida pelo numero e partições de equivalência identificadas, expresso por porcentagem.
 
 
-Analise de valor e limite:
+**Analise de valor e limite:**
 
 A análise de valor de limite é uma amplificação do particionamento de equivalência, porém ela só pode ser utilizada se a partição é ordenada, contendo dados númericos ou sequenciais.
 Vale lembrar que o comportamento nos limites das partições de equivalência é mais provável que seja incorreto do que o comportamento dentro das partições. 
@@ -337,7 +337,7 @@ Vale lembrar que o comportamento nos limites das partições de equivalência é
 Sua cobertura pode ser medida pelo número de valores limeites testados dividido pelo número total de valores de teste.
 
 
-Teste de tabela de decisão:
+**Teste de tabela de decisão:**
 
 Para testar a implementação de requisitos do sistema são utilizados técnicas combinatórias. Ao criar tabelas de decisão o testador.  Uma boa maneira de registrar regras de negócio complexas são as tabelas de decisão. Criando as tabelas de decisão o testador consegue identificar as entradas e saídas do sistema.
 E os valores apresentados normalmente são  boleanos ou seja, 0 ou 1.
@@ -357,7 +357,7 @@ Em branco quando a ação não deve ocorrer.
 A tabela de transição auxilia na identificação de todas as combinações importantes.
  
 
-Teste de transição de estado:
+**Teste de transição de estado:**
 
 Dependendo das condições atuais ou histórico dos componentes ou do sistema eles podem responder de maneira diferente.
 Através de um diagrama pode se observar a forma como se encontra  o estado do software.
@@ -367,7 +367,7 @@ Todas as transições válidas e inválidas entre estados assim como os eventos,
 Os testes de transição são comumentes usados em  software que possuem menus, como indústrias de prateleira de software.
 Sua cobertura normalmente é  medida pelo número de estados  identificados, dividido pelo número de de transições identificados pelo estado de teste.
 
-Teste de caso de uso:
+**Teste de caso de uso:**
 
 Uma maneira específica que podem projetar interações com itens de software pode ser derivada de casos de uso.
 O caso de uso está ligado a atores que são representados pelos usuários, humanos, hardware, componentes do sistema,  dentre outros.
@@ -375,13 +375,13 @@ Pode se descrever o caso de uso como interações e atividades assim como condi�
 Um caso de uso pode sofrer alterações em em seu comportamento básico,incluindo o comportamento excepcionalmente no tratamento de erros.
 Pode se medir sua cobertura em porcentagem.
 
-3.Técnicas de teste caixa-branca.
+**3.Técnicas de teste caixa-branca.**
 
 Na estrutura interna do objeto de teste é funfadamentado o teste caixa-branca.Este teste pode ser utilizado em todos os níveis de testes, porém duas técnicas avançadas  referentes a código que são muito utillizadas no nível de teste de componentes,  e são elas:
    * **Teste de cobertura de instruções:** Onde as intruções executávies do código são testada. Para medir a cobertura é necessário dividir o numero de intruções executadas pelo testes pelo numero total de instruções executáveis existentes. 
    * **Teste de decisão e cobeertura:** Onde se testa as decisões existentes no código e o código executado com base nos resultados. Para calcular a cobertura é dividir o número de resultados de decisão pelo numero total de resultados de decisão no objeto de teste.
 
-4.Técnicas de teste baseado na experiência. 
+**4. Técnicas de teste baseado na experiência.**
 
 Técnicas de expriência são fundamentadas na intuição do testador. Também são udados aplicativos e sistemas conhecidos do testador. O testador ao utilizar essas técnicas podem melhorar a eficiência do sistema e auxliar na detecção dos defeitos previamente.
 
@@ -397,7 +397,7 @@ Esse teste é muito válido para quando existem poucas ou inadequadas especifica
 * **Teste Baseado em checklist:** Neste teste é feito uma listagem onde os testadores modelam, implementam e executam testes implementados em lista. Esse cheklist é produzido como base na experiência e conhecimento para a avaliar o que é  mais importante para o usuário.
 Eles podem ser gerados para dar suporte a vários tipos de testes, inclusive os funcionais e os não funcionais.
 
-5. Gerenciamento de teste 
+**5. Gerenciamento de teste**
 
 Consiste em gerenciar os defeitos de teste. Relatório de defeitos de teste, critérios de entrada e saída de teste, risco do produto e do projeto.Baseado em risco, abordagem e controle do teste,estimativa e estratégia do teste, monitoramento do teste, plano e planejamento do teste.Relatório de progresso e de resumo do teste. Testador.
 
@@ -417,7 +417,7 @@ Geralmente, para a maioria dos projetos é melhor se ter vários níveis de test
 
 A independência dos testes varia de acordo como eles são implementados, depedendo do modelo de ciclo de vida de desenvolviemento de software. Algumas organizações utilizam métodos agéis para  e seus testadores podem fazer parte de uma equipe de desenvolviemento. E em alguns casos pode se usar testes de aceite para validar as histŕias de usuários ao final de cada iteração.
 
-Vantagens da independência do teste incluem:
+**Vantagens da independência do teste incluem:**
 
    * Provavelmente os testadores independentes reconhecerão diferentes tipos de falhas se comparado aos desenvolvedores, isto se dá por diferentes históricos, técnicas e vieses.
    * Durante a especificação e a implementação do sistema, um testador inpedendente pode averiguar, desafiar ou contestar as suposições feitas pelos _stakeholders_.
