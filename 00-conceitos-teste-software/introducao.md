@@ -89,7 +89,8 @@ Existem vários de ciclo de vida no desenvolvimento de um software e cada um abo
 **2.Níveis de Teste.**
 
 Cada nível de teste é uma categoria do processo de teste que consiste nas atividades e são gerenciados juntos. Desde  os teste de componentes até outras atividades dentro do ciclo de vida de desenvoliemnto de software. 
-As características em comum dos testes são:
+
+**As características em comum dos testes são:**
 
    * Objetivos especificos
    * Base de teste
@@ -434,7 +435,7 @@ Os testadores e os gerentes de teste são dois papeis cobertos neste syllabus e 
 
 A liderança das atividades bem sucedidas de testes e o processo geral de teste são de responsabilidade do gerente de teste.
 
-Tarefas comuns de gerente de de teste são:
+**Tarefas comuns de gerente de de teste são:**
 
    * Criar ou revisar um coneito de teste e um metodo de teste para organização.
    * Projetar as tarefas considerando o contexto e entendendo os objetivos e riscos do teste. Pode ser incluído abordagens de teste, o tempo, o esforço, o custo, aquisição de recursos, o planejamento e o conceito de níveis e ciclos de testes.
@@ -452,7 +453,7 @@ O ciclo de vida de desenvolvimento de software varia de acordo com jeito que a f
 
  Quando algumas tarefas envolvem mais equipes ou envolve toda a  organização, podem ser testados por gerentes de teste  de fora da equipe de desenvolvimento. Para maiores informações de como gerenciar uma equipe de teste veja black (2009). 
 
-Tarefas comuns de um testador: 
+**Tarefas comuns de um testador:**
 
    * Revisar e colaborar para os planos de teste.
    * Examinar, revisar e  analisar os quesitos, as histárias de usuários e os critérios de aceite, as especificações e modelos da testabiliadade.
