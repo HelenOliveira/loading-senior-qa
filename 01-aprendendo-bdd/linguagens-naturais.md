@@ -12,7 +12,7 @@ Porém existem métodos linguísticos e semânticos que buscam produzir uma emul
 
 ## **O que é BDD?**
 
-**BDD** (*Beauvoir Driven Development*) é uma técnica de desenvolvimento ágil que visa colaboração dos desenvolvedores na melhoria de qualidade, unindo tanto áreas técnicas como não técnicas para criar métodos de validação em testes de sistemas, onde tenha mais colaborações entres as visões, assegurando a qualidade do projeto. 
+**BDD** (*Beauvoir Driven Development* ) é uma técnica de desenvolvimento ágil que visa colaboração dos desenvolvedores na melhoria de qualidade, unindo tanto áreas técnicas como não técnicas para criar métodos de validação em testes de sistemas, onde tenha mais colaborações entres as visões, assegurando a qualidade do projeto. 
 
 O **BDD**  é utilizado para criar casos de testes onde sua lógica facilita um entendimento simples para todos. Normalmente nesse processo é utilizado como base a Sintaxe Gherkin, que é um tipo de sintaxe que auxilia essa lógica de escrita e aplicação do processo **BDD** . 
 
@@ -22,7 +22,7 @@ Os cenários em **BDD** são criados através da “quebra” de um requisito de
 
 ## **Mapa para gerar identação no uso da Sintaxe como *Gherkin*** 
 
- Estrutura Básica de Sintaxe par o  ***Gherkin***  para o **BDD** 
+ **Estrutura Básica de Sintaxe para o *Gherkin*  para o BDD** 
 
 * **Dado** (contexto) 
 
@@ -71,3 +71,5 @@ Os cenários em **BDD** são criados através da “quebra” de um requisito de
 * **Então** eu devo ter cinco carros disponíveis no pátio 
 
 Claramente os cenários acima expostos são simples, porém auxiliam com processo de descrição com intuito simples para o entendimento até de quem não entende de programação. Isso é muito importante para os profissionais de testes, principalmente para os P.Os e até mesmo para usuários de comuns de quaisquer negócios, que podem envolver se em todo processo de testes com seu ponto de vistas e conhecimento, agregando mais qualidade no que está sendo feito.
+
+**Fonte:** https://bit.ly/3JUOeRs
