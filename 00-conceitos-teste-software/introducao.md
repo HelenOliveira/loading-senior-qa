@@ -520,24 +520,30 @@ Para se ter o controle eficaz sobre a qualidade do software e dos testes é acon
 
 Parâmetros típicos de entrada incluem:
 
-Cronograma de execução de teste
+## **Cronograma de execução de teste** 
 Os conjuntos de testes podem ser organizados em um cronograma da execução do teste que define a ordem em que devem ser executados, logo após vários casos  de teste e procedimentos de teste são produzidos e montados em suítes de testes. Fatores como priorização, dependências, testes de confirmação, testes de regressão e a  seqüência mais eficiente para se executar os testes deve levar em consideração o cronograma.
-O melhor seria que os testes fossem executados  ordenadamente com base no nível  de prioridade, normalmente executando a de maior prioridade primeiro.  Porem,  se os testes tiverem dependências  ou recurso que estão sendo testados  tiverem dependências estes testes podem não funcionar. Se um caso de teste com prioridade mais alta estiver com dependências com um caso de teste de prioridade mais baixa o caso de teste de prioridade mais baixa tem que ser executado primeiro. Do mesmo jeito se houver dependências entre os  caso de teste elas devem ser ordenadas devidamente , independentemente de suas prioridades relativas. Com base na importância de feedback rápido sobre as mudanças, os testes de confirmação e regressão também devem ser priorizados, aplicando de novo as dependências.
+
+O melhor seria que os testes fossem executados  ordenadamente com base no nível  de prioridade, normalmente executando a de maior prioridade primeiro.  Porem,  se os testes tiverem dependências  ou recurso que estão sendo testados  tiverem dependências estes testes podem não funcionar. Se um caso de teste com prioridade mais alta estiver com dependências com um caso de teste de prioridade mais baixa o caso de teste de prioridade mais baixa tem que ser executado primeiro. 
+
+Do mesmo jeito se houver dependências entre os  caso de teste elas devem ser ordenadas devidamente, independentemente de suas prioridades relativas. Com base na importância de feedback rápido sobre as mudanças, os testes de confirmação e regressão também devem ser priorizados, aplicando de novo as dependências.
+
 Em um pequeno numero casos, várias seqüências de testes são possíveis, com diferentes níveis de eficiência associados a essas seqüências. Nesses casos, as motivações  entre a eficiência da execução do teste e a aderência à priorização devem ser feitas.
-5.2.5 Fatores que influenciam o esforço de teste
-• Riscos relacionados com o produto. 
-• Característica da base de teste 
-• Dimensão  do produto
- • A diversidade do domínio do produto
- • Requisitos das características de qualidade (p. ex., segurança, confiabilidade) 
-• Nível essencial de detalhes para documentação de teste
- • Requisitos para conformidade legal e regulatória
-• Estabilidade e maturidade da organização. 
-• O modelo de desenvolvimento em uso
- • A conduta de teste. 
-• As ferramentas usadas. 
-• O processo de teste. 
-• A pressão sobre o tempo de finalização.
+
+## **5.2.5 Fatores que influenciam o esforço de teste**
+
+* Riscos relacionados com o produto.
+* Característica da base de teste 
+* Dimensão  do produto
+* A diversidade do domínio do produto
+* Requisitos das características de qualidade (p. ex., segurança, confiabilidade) 
+* Nível essencial de detalhes para documentação de teste
+* Requisitos para conformidade legal e regulatória
+* Estabilidade e maturidade da organização. 
+* O modelo de desenvolvimento em uso
+* A conduta de teste. 
+* As ferramentas usadas. 
+* O processo de teste. 
+* A pressão sobre o tempo de finalização.
 
 
    
