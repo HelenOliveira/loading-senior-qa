@@ -1,5 +1,5 @@
 
-# **Feature: Testar login no site  da Dafiti usando a Sintaxe BDD**
+# **Feature: Teste de  login no site  da Dafiti usando a Sintaxe BDD**
 
 **Como** Cliente acessa o site www.dafiti.com.br &nbsp;
 
