@@ -1,4 +1,4 @@
-**Linguagens Naturais: O BDD e a Sintaxe *Gherkin*** 
+#  **Linguagens Naturais: O BDD e a Sintaxe *Gherkin*** 
  
 Para garantir uma boa qualidade do projeto em processo de testes é interessante entender como as linguagens naturais como **BDD** e  da **Sintaxe *Gherkin*** são importantes. 
 
@@ -10,9 +10,9 @@ Estas linguagens são chamadas de linguagens naturais como o YAML e o Python, qu
 
 Porém existem métodos linguísticos e semânticos que buscam produzir uma emulação do comportamento do usuário numa linguagem simples, sendo a sua endentação a principal chave para o funcionamento como por exemplo o **BDD**  e a **sintaxe *Gherkin.***  
 
-**O que é BDD?**
+## **O que é BDD?**
 
-BDD (*Beauvoir Driven Development*) é uma técnica de desenvolvimento ágil que visa colaboração dos desenvolvedores na melhoria de qualidade, unindo tanto áreas técnicas como não técnicas para criar métodos de validação em testes de sistemas, onde tenha mais colaborações entres as visões, assegurando a qualidade do projeto. 
+**BDD** (*Beauvoir Driven Development*) é uma técnica de desenvolvimento ágil que visa colaboração dos desenvolvedores na melhoria de qualidade, unindo tanto áreas técnicas como não técnicas para criar métodos de validação em testes de sistemas, onde tenha mais colaborações entres as visões, assegurando a qualidade do projeto. 
 
 O **BDD**  é utilizado para criar casos de testes onde sua lógica facilita um entendimento simples para todos. Normalmente nesse processo é utilizado como base a Sintaxe Gherkin, que é um tipo de sintaxe que auxilia essa lógica de escrita e aplicação do processo **BDD** . 
 
@@ -20,7 +20,7 @@ Esse processo é muito útil pois auxilia na compreensão dos testes que serão 
 
 Os cenários em **BDD** são criados através da “quebra” de um requisito dentro de uma situação e necessidade para gerar cenários de teste que gerarão o resultado aguardado. A identação usada para tal cenário são a palavras Dado que, Quando,  Entao e vez ou outra Deve par dentro de contexto gerar um cenário. 
 
-**Mapa para gerar identação no uso da Sintaxe como *Gherkin*** 
+## **Mapa para gerar identação no uso da Sintaxe como *Gherkin*** 
 
  Estrutura Básica de Sintaxe par o  ***Gherkin***  para o **BDD** 
 
@@ -36,7 +36,7 @@ Os cenários em **BDD** são criados através da “quebra” de um requisito de
 
 * **E** 
 
-* **#**(Comentário durante a escrita) 
+* **#** Comentário durante a escrita 
 
 
 
@@ -45,7 +45,7 @@ Os cenários em **BDD** são criados através da “quebra” de um requisito de
  
 **Exemplo:** controle de carros de aluguel 
 
-***#Cenário para teste de retirada do carro do pátio** 
+## **Cenário para teste de retirada do carro do pátio** 
 
 *  **Cenário A:** Carros que podem ser alugados  
 
@@ -58,7 +58,7 @@ Os cenários em **BDD** são criados através da “quebra” de um requisito de
 * **Então** eu devo ter 4 carros disponíveis no pátio 
 
  
-**Cenário para devolução e carro alugado**
+## **Cenário para devolução e carro alugado**
 
 * **Cenário B:** Carros alugados devem voltar ao pátio 
 
@@ -70,4 +70,4 @@ Os cenários em **BDD** são criados através da “quebra” de um requisito de
 
 * **Então** eu devo ter cinco carros disponíveis no pátio 
 
-Claramente os cenários acima expostos são simples, porém auxiliam com processo de descrição com intuito simples para o entendimento até de quem não entende de programação. Isso é muito importante para os profissionais de testes, principalmente para os P.Os e até mesmo para usuários de comuns de quaisquer negócios, que podem envolver se em todo processo de testes com seu ponto de vistas e conhecimento, agregando mais qualidade no que está sendo feito. 
+Claramente os cenários acima expostos são simples, porém auxiliam com processo de descrição com intuito simples para o entendimento até de quem não entende de programação. Isso é muito importante para os profissionais de testes, principalmente para os P.Os e até mesmo para usuários de comuns de quaisquer negócios, que podem envolver se em todo processo de testes com seu ponto de vistas e conhecimento, agregando mais qualidade no que está sendo feito.
