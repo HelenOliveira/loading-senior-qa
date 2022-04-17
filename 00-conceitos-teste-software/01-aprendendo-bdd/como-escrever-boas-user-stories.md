@@ -1,8 +1,8 @@
-**Como escrever boas user stories** 
+# **Como escrever boas user stories** 
 
-**O que é BDD?**
+## **O que é BDD?**
 
-O BDD (*behaviour driven development*) é uma técnica é uma muito usada no desenvolvimento ágil que se originou do TDD (*Test Driven Development*), ela foi criada com intenção de estimular os membros da equipe entre si. A sua função é descrever o comportamento do programa que será produzido. 
+O **BDD** (*behaviour driven development* ),  é uma técnica muito usada no desenvolvimento ágil que se originou do TDD (*Test Driven Development*), ela foi criada com intenção de estimular os membros da equipe entre si. A sua função é descrever o comportamento do programa que será produzido. 
 
 Tal estimulo não esta presente somente no BDD mas também em outros métodos ágeis como SCRUM por exemplo. 
 
@@ -18,7 +18,7 @@ Portanto ao se os testes forem escritos somente após o software estar pronto, o
 
 Desse modo de realizar testes, também é plausível que exerçam o fluxo inteiro em certa função (*end to end testing*) e não somente uma função específica. 
 
-**Por que usar BDD?**
+## **Por que usar BDD?**
 
 Ao utilizar BDD auxilia a qualidade do produto de uma forma genérica pois estimula a cooperação da equipe desde o principio, permitindo o alinhamento desde o inicio. 
 
@@ -28,17 +28,17 @@ Alem do mais utilizar BDD facilita a comunicação e a compreensão entre as equ
 
 O *cucumber* é um exemplo de ferramenta muito conhecida que oferece um apoio para várias linguagens como Java, Ruby. 
 
-**Como escrever boas histórias e bons cenários de BDD**
+## **Como escrever boas histórias e bons cenários de BDD**
 
 Os cenários são redigidos utilizando o padrão composto por palavras chave: 
 
-    **As-want-so** (como eu quero-para) 
+**As-want-so** (como eu quero-para) 
 
-        **Given-when-then** (dado-quando-então) 
+**Given-when-then** (dado-quando-então) 
 
-Cada uma dessas palavras chave é utilizada da seguinte  maneira: 
+        Cada uma dessas palavras chave é utilizada da seguinte  maneira: 
 
-    **Como**
+**Como**
 
         Papel que executa alguma ação no produto sobre teste 
 
@@ -50,56 +50,65 @@ Cada uma dessas palavras chave é utilizada da seguinte  maneira:
 
     Algum efeito específico ou algo seja feito 
 
-    **Cenário 1**
+## **Cenário 1**
 
-    **Dado** 
+**Dado** 
 
         Pré requisitos para meu teste 
 
-    **Então**  
+**Então**  
 
         Deve acontecer alguma coisa (o que eu quero que aconteça no meu teste) 
 
-    **Cenário 2** 
+## **Cenário 2** 
 
-    **Dado**
-
-    ... 
-
- 	**Quando** 
+**Dado**
 
     ... 
 
-    **Então** 
+**Quando** 
 
     ... 
 
+**Então** 
 
-**Exemplo de história de usuário com cenários** 
+    ... 
 
+## **Exemplo de história de usuário com cenários** 
+
+
+**Como:**
+        tenho  uma conta no banco e tem aplicativo do banco  instalado no meu celular 
+
+**Eu quero:**
+    ser pato a controlara administrar a minha conta corrente através do aplicativo do banco. 
+
+**Para:** 
+    melhorar o controle do meu dinheiro 
+
+## **Cenário 1**
+
+**Realizar transferências da conta corrente** 
+
+**Dado:** 
+        eu devo esta logado na minha conta do banco. 
+
+**E:** 
+        tenha um limite maior que 0; 
+
+**E:**  
+        menor que o limite de transferência permitido pelo aplicativo 
+
+**E:** 
+        menor que o limite da mina conta. 
+
+**Então:** 
+        o banco deverá permitir e realizar a transferência do dinheiro. 
+
+**E:** 
+        eu tenho que receber um SMS de confirmação da transação bancária. 
  
-
-**Como:** tenho  uma conta no banco e tem aplicativo do banco  instalado no meu celular 
-
-**Eu quero:** ser pato a controlara administrar a minha conta corrente através do aplicativo do banco. 
-
-**Para:** melhorar o controle do meu dinheiro 
-
-    **Cenário 1 : Realizar transferências da conta corrente** 
-
-    **Dado:** eu devo esta logado na minha conta do banco. 
-
-    **E:** tenha um limite maior que 0; 
-
-    **E:**  menor que o limite de transferência permitido pelo aplicativo 
-
-    **E:** menor que o limite da mina conta. 
-
-    **Então:** o banco deverá permitir e realizar a transferência do dinheiro. 
-
-    **E:** eu tenho que receber um SMS de confirmação da transação bancária. 
- 
- **Cuidado com Ambigüidades** 
+ ## **Cuidado com Ambigüidades** 
 
 É relevante prestar atenção e usar a cautela ao escrever as histórias de usuários e os exemplos com ambigüidades, embora a toda língua não seja formal é cheia de ambigüidades. 
 
@@ -107,7 +116,7 @@ No português isto é fácil de acontecer, algo que seja claro para alguns da eq
 
 Uma boa prática de procurar por ambigüidades é retirar cada palavra em uma frase em busca de sentidos que elas podem ter. Uma prática que ajuda evitar as informações confusas é escrever histórias nas reuniões de refinamento de backlog. 
 
-**Concluindo** 
+## **Concluindo** 
 
 O que importa mesmo no momento de escrever boas histórias no formato BDD é concentrar se no comportamento.
 
