@@ -120,4 +120,4 @@ Uma boa prática de procurar por ambigüidades é retirar cada palavra em uma fr
 
 O que importa mesmo no momento de escrever boas histórias no formato BDD é concentrar se no comportamento.
 
-Fonte: https://bit.ly/3HPsRks
+**Fonte:** https://bit.ly/3HPsRks
